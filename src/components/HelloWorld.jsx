@@ -1,11 +1,12 @@
 import React from 'react';
-import '../assets/styles/app.scss'
+import '../assets/styles/App.scss';
 
+const HelloWorld = () => {
+  return (
+    <div>
+      <h1>GG</h1>
+    </div>
+  );
+};
 
-const Hello = () =>(
-    <h1>
-        GG
-    </h1>
-)
-
-export default Hello;
+export default HelloWorld;
